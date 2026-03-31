@@ -91,7 +91,7 @@ usage()
 }
 
 # get options
-while getopts ':d:nsqvh' OPTION 
+while getopts ':d:n:sqvh' OPTION 
 do
  case ${OPTION} in
  d) reportDir="${OPTARG}"
